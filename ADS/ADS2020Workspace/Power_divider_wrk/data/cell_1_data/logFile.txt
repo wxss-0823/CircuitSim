@@ -1,0 +1,11 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+AC AC1[1] <MyFirstWorkspace_lib:cell_1:schematic>   freq=(1 Hz->10 kHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.45 seconds.
+

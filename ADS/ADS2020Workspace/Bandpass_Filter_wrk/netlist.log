@@ -1,0 +1,57 @@
+; Top Design: "Bandpass_Filter_lib:bpf:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="Bandpass_Filter_lib:bpf:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+model MSub1 MSUB H=1.6 mm Er=4.6 Mur=1 Cond=5.88E+7 Hu=1e+33 mm T=0.035 mm TanD=1e-4 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL1  N__0 N__1 Subst="MSub1" W=2.92 mm L=5 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL2  N__2 N__3 Subst="MSub1" W=2.92 mm L=5 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MCFIL:CLin1  N__1 N__7 Subst="MSub1" W=w1 mm S=s1 mm L=l1 mm 
+MCFIL:CLin2  N__7 N__9 Subst="MSub1" W=w2 mm S=s2 mm L=l2 mm 
+MCFIL:CLin3  N__9 N__14 Subst="MSub1" W=w3 mm S=s3 mm L=l3 mm 
+MCFIL:CLin4  N__14 N__12 Subst="MSub1" W=w3 mm S=s3 mm L=l3 mm 
+MCFIL:CLin5  N__12 N__15 Subst="MSub1" W=w2 mm S=s2 mm L=l2 mm 
+MCFIL:CLin6  N__15 N__2 Subst="MSub1" W=w1 mm S=s1 mm L=l1 mm 
+Port:Term1  N__0 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__3 0 Num=2 Z=50 Ohm Noise=yes 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=2 GHz Stop=3 GHz Step=10 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+
+Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" MaxIters=400 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 NumShootsPerIter=20 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
+OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="LessThan" Max=-40 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=2.73e+09 
+OptimGoal:OptimGoal2 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" 
+SpecLimitLine:"OptimGoal2_limit1" Type="LessThan" Max=-40 Weight=1 \
+IndepVar[1]="freq" IndepMax[1]=2.33e+09 
+OptimGoal:OptimGoal3 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal3_limit1" 
+SpecLimitLine:"OptimGoal3_limit1" Type="Inside" Min=-0.5 Max=0 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=2.43e+09 IndepMax[1]=2.63e+09 
+
+w1=1.4 opt{ 1.2 to 1.4 }
+w2=1.5 opt{ 1.2 to 1.5 }
+w3=1.59826 opt{ 1.4 to 1.6 }
+s1=0.514498 opt{ 0.3 to 1 }
+s2=1.81392 opt{ 1 to 3 }
+s3=2.23548 opt{ 1 to 3 }
+l1=15.8824 opt{ 12 to 20 }
+l2=15.8186 opt{ 12 to 20 }
+l3=15.8472 opt{ 12 to 20 }

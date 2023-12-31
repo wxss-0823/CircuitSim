@@ -1,0 +1,74 @@
+; Top Design: "MyFirstWorkspace_lib:wilkinson:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="MyFirstWorkspace_lib:wilkinson:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+MLIN2:TL1  N__1 N__0 Subst="MSub1" W=w1 mm L=2.5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee1  N__5 N__6 N__0 Subst="MSub1" W1=w2 mm W2=w2 mm W3=w1 mm 
+MLIN2:TL2  N__4 N__5 Subst="MSub1" W=w2 mm L=(9+w2+w1/2) mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL3  N__6 N__3 Subst="MSub1" W=w2 mm L=(9+w2+w1/2) mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MCURVE:Curve1  N__7 N__4 Subst="MSub1" W=w2 mm Angle=90 Radius=2.5 mm 
+MCURVE:Curve2  N__3 N__10 Subst="MSub1" W=w2 mm Angle=90 Radius=2.5 mm 
+MLIN2:TL4  N__7 N__9 Subst="MSub1" W=w2 mm L=l mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL5  N__10 N__12 Subst="MSub1" W=w2 mm L=l mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MCURVE:Curve3  N__8 N__9 Subst="MSub1" W=w2 mm Angle=90 Radius=2.5 mm 
+MCURVE:Curve4  N__12 N__15 Subst="MSub1" W=w2 mm Angle=90 Radius=2.5 mm 
+MLIN2:TL6  N__22 N__8 Subst="MSub1" W=w2 mm L=9 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL7  N__18 N__15 Subst="MSub1" W=w2 mm L=9 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee2  N__13 N__22 N__2 Subst="MSub1" W1=w2 mm W2=w2 mm W3=w2 mm 
+MTEE_ADS:Tee3  N__18 N__17 N__20 Subst="MSub1" W1=w2 mm W2=w2 mm W3=w1 mm 
+TFR:R1  N__13 N__17 Subst="MSub1" W=w2 mm L=(2*w2) mm Rs=50.0 Ohm Freq=0 Hz 
+MLIN2:TL8  N__2 N__14 Subst="MSub1" W=w1 mm L=1 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL9  N__20 N__21 Subst="MSub1" W=w1 mm L=1 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MCURVE:Curve5  N__14 N__19 Subst="MSub1" W=w1 mm Angle=90 Radius=2.5 mm 
+MCURVE:Curve6  N__28 N__21 Subst="MSub1" W=w1 mm Angle=90 Radius=2.5 mm 
+MCURVE:Curve7  N__25 N__11 Subst="MSub1" W=w1 mm Angle=90 Radius=2.5 mm 
+MCURVE:Curve8  N__29 N__26 Subst="MSub1" W=w1 mm Angle=90 Radius=2.5 mm 
+MLIN2:TL10  N__11 N__19 Subst="MSub1" W=w1 mm L=10 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL11  N__28 N__29 Subst="MSub1" W=w1 mm L=10 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL12  N__25 N__16 Subst="MSub1" W=w1 mm L=5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL13  N__26 N__23 Subst="MSub1" W=w1 mm L=5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+model MSub1 MSUB H=1.6 mm Er=4.6 Mur=1 Cond=5.88e+7 Hu=1.0e+33 mm T=0.035 mm TanD=1e-4 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=1.03 GHz Stop=1.23 GHz Step=0.001 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:Term2  N__16 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term3  N__23 0 Num=3 Z=50 Ohm Noise=yes 
+
+w1=2.89924 opt{ 2.6 to 3.1 }
+w2=1.53642 opt{ 1.5 to 1.8 }
+l=9.21798 opt{ 5 to 20 }
+
+Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" MaxIters=1000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 NumShootsPerIter=20 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
+OptimGoal:OptimGoal1 Expr="dB(S(1,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="LessThan" Max=-20 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.03e+09 IndepMax[1]=1.23e+09 
+Port:Term1  N__1 0 Num=1 Z=50 Ohm Noise=yes 
+OptimGoal:OptimGoal2 Expr="dB(S(2,2))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" 
+SpecLimitLine:"OptimGoal2_limit1" Type="LessThan" Max=-20 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.03e+09 IndepMax[1]=1.23e+09 
+OptimGoal:OptimGoal3 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal3_limit1" 
+SpecLimitLine:"OptimGoal3_limit1" Type="GreaterThan" Min=-3.3 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.03e+09 IndepMax[1]=1.23e+09 
+OptimGoal:OptimGoal4 Expr="dB(S(2,3))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal4_limit1" 
+SpecLimitLine:"OptimGoal4_limit1" Type="LessThan" Max=-25 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.03e+09 IndepMax[1]=1.23e+09 

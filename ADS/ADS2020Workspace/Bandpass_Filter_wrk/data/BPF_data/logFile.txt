@@ -1,0 +1,311 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+OPTIM Optim1[1] <Bandpass_Filter_lib:bpf:schematic>  optIter=(0->400)
+
+SP Optim1[1].SP1[0] <Bandpass_Filter_lib:bpf:schematic>  optIter=0  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 0.109022800621154
+  Optimization variables:
+    l1 = 15.8824
+    l2 = 15.8186
+    l3 = 15.8472
+    s1 = 514.498e-03
+    s2 = 1.81392
+    s3 = 2.23548
+    w1 = 1.4
+    w2 = 1.5
+    w3 = 1.59826
+
+SP Optim1[1].SP1[1] <Bandpass_Filter_lib:bpf:schematic>  optIter=1  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #1:
+  CurrentEF: 0.0991610073136408
+  Optimization variables:
+    l1 = 15.89744349220746
+    l2 = 15.80236556183727
+    l3 = 15.79410857370845
+    s1 = 516.2859096580396e-03
+    s2 = 1.864296182701677
+    s3 = 2.281752363427776
+    w1 = 1.399999999999969
+    w2 = 1.499999999997544
+    w3 = 1.598263118142268
+
+SP Optim1[1].SP1[2] <Bandpass_Filter_lib:bpf:schematic>  optIter=2  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #2:
+  CurrentEF: 0.0947413288867592
+  Optimization variables:
+    l1 = 15.88652661569184
+    l2 = 15.78597883978735
+    l3 = 15.81356950139957
+    s1 = 517.5483421743625e-03
+    s2 = 1.8870613553138
+    s3 = 2.309854192011218
+    w1 = 1.399999999999853
+    w2 = 1.499999999995545
+    w3 = 1.598266006012713
+
+SP Optim1[1].SP1[3] <Bandpass_Filter_lib:bpf:schematic>  optIter=3  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #3:
+  CurrentEF: 0.0889425354332084
+  Optimization variables:
+    l1 = 15.88112080827248
+    l2 = 15.82140614608787
+    l3 = 15.83686503820124
+    s1 = 519.6752031858449e-03
+    s2 = 1.91086118909945
+    s3 = 2.347881254138769
+    w1 = 1.399999999999229
+    w2 = 1.499999999992936
+    w3 = 1.598270292788789
+
+SP Optim1[1].SP1[4] <Bandpass_Filter_lib:bpf:schematic>  optIter=4  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #4:
+  CurrentEF: 0.0837937037748486
+  Optimization variables:
+    l1 = 15.83620177846456
+    l2 = 15.82237039058627
+    l3 = 15.79536043944457
+    s1 = 523.5229813295476e-03
+    s2 = 1.917218033102113
+    s3 = 2.390225116181962
+    w1 = 1.399999999995853
+    w2 = 1.499999999995154
+    w3 = 1.598276180126162
+
+SP Optim1[1].SP1[5] <Bandpass_Filter_lib:bpf:schematic>  optIter=5  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #5:
+  CurrentEF: 0.0802061794205891
+  Optimization variables:
+    l1 = 15.89051834317498
+    l2 = 15.79304490631932
+    l3 = 15.77462315700484
+    s1 = 526.2522933046048e-03
+    s2 = 1.916073929114599
+    s3 = 2.42583837872514
+    w1 = 1.39999999999021
+    w2 = 1.499999999997133
+    w3 = 1.598282603223668
+
+SP Optim1[1].SP1[6] <Bandpass_Filter_lib:bpf:schematic>  optIter=6  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #6:
+  CurrentEF: 0.0792776280507773
+  Optimization variables:
+    l1 = 15.89790238587538
+    l2 = 15.79306009736546
+    l3 = 15.76248998554734
+    s1 = 522.5978462929929e-03
+    s2 = 1.931700776738145
+    s3 = 2.453193262992276
+    w1 = 1.3999999999944
+    w2 = 1.499999999981301
+    w3 = 1.598293904337475
+
+SP Optim1[1].SP1[7] <Bandpass_Filter_lib:bpf:schematic>  optIter=7  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #7:
+  CurrentEF: 0.079211566588193
+  Optimization variables:
+    l1 = 15.89995160948138
+    l2 = 15.79195183004931
+    l3 = 15.75992128902377
+    s1 = 520.9583124965903e-03
+    s2 = 1.933188136332693
+    s3 = 2.458890468058303
+    w1 = 1.399999999994272
+    w2 = 1.499999999971707
+    w3 = 1.598297493809836
+
+SP Optim1[1].SP1[8] <Bandpass_Filter_lib:bpf:schematic>  optIter=8  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #8:
+  CurrentEF: 0.078956183932933
+  Optimization variables:
+    l1 = 15.90852300975433
+    l2 = 15.78778853380933
+    l3 = 15.76593298050151
+    s1 = 520.6107528065186e-03
+    s2 = 1.935068601308313
+    s3 = 2.461558500268498
+    w1 = 1.399999999994946
+    w2 = 1.499999999947309
+    w3 = 1.598306289578757
+
+SP Optim1[1].SP1[9] <Bandpass_Filter_lib:bpf:schematic>  optIter=9  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #9:
+  CurrentEF: 0.0789071997317987
+  Optimization variables:
+    l1 = 15.90593692409218
+    l2 = 15.7839934154045
+    l3 = 15.76376423958428
+    s1 = 519.9431659929085e-03
+    s2 = 1.932012609077385
+    s3 = 2.460503995669471
+    w1 = 1.399999999999832
+    w2 = 1.499999999883825
+    w3 = 1.598324557242912
+
+SP Optim1[1].SP1[10] <Bandpass_Filter_lib:bpf:schematic>  optIter=10  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #10:
+  CurrentEF: 0.0788643726547852
+  Optimization variables:
+    l1 = 15.90304021827646
+    l2 = 15.78493738848429
+    l3 = 15.7637119121812
+    s1 = 517.1631040669371e-03
+    s2 = 1.929831054152719
+    s3 = 2.459084591130181
+    w1 = 1.39999999999221
+    w2 = 1.499999999636199
+    w3 = 1.598364821728573
+
+SP Optim1[1].SP1[11] <Bandpass_Filter_lib:bpf:schematic>  optIter=11  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #11:
+  CurrentEF: 0.0787973596729674
+  Optimization variables:
+    l1 = 15.9067423490911
+    l2 = 15.78389381965091
+    l3 = 15.762134486945
+    s1 = 515.0504260023168e-03
+    s2 = 1.928951966165239
+    s3 = 2.463760116762594
+    w1 = 1.399999999964038
+    w2 = 1.499999999130894
+    w3 = 1.598415666523354
+
+SP Optim1[1].SP1[12] <Bandpass_Filter_lib:bpf:schematic>  optIter=12  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #12:
+  CurrentEF: 0.078770311998865
+  Optimization variables:
+    l1 = 15.91255238884004
+    l2 = 15.78232356605634
+    l3 = 15.76016685495781
+    s1 = 512.5507517493271e-03
+    s2 = 1.927572407563813
+    s3 = 2.467684501756125
+    w1 = 1.399999999919041
+    w2 = 1.499999998104994
+    w3 = 1.598480544073796
+
+SP Optim1[1].SP1[13] <Bandpass_Filter_lib:bpf:schematic>  optIter=13  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #13:
+  CurrentEF: 0.0787697355724604
+  Optimization variables:
+    l1 = 15.9130162033062
+    l2 = 15.78236106751138
+    l3 = 15.7603785216464
+    s1 = 512.4475196059328e-03
+    s2 = 1.927486529518147
+    s3 = 2.467563291630645
+    w1 = 1.399999999928613
+    w2 = 1.49999999784327
+    w3 = 1.598491846656041
+
+SP Optim1[1].SP1[14] <Bandpass_Filter_lib:bpf:schematic>  optIter=14  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #14:
+  CurrentEF: 0.0787686124964507
+  Optimization variables:
+    l1 = 15.91435933317172
+    l2 = 15.78242920079107
+    l3 = 15.76089247416875
+    s1 = 512.1628608542473e-03
+    s2 = 1.927137423871355
+    s3 = 2.467148922036905
+    w1 = 1.399999999984566
+    w2 = 1.499999995521386
+    w3 = 1.598569495249637
+
+SP Optim1[1].SP1[15] <Bandpass_Filter_lib:bpf:schematic>  optIter=15  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #15:
+  CurrentEF: 0.0787529385800086
+  Optimization variables:
+    l1 = 15.91066976104819
+    l2 = 15.78253294987559
+    l3 = 15.75922713738893
+    s1 = 513.1000441502228e-03
+    s2 = 1.927844891448857
+    s3 = 2.467632823465081
+    w1 = 1.399999997911
+    w2 = 1.499999930724916
+    w3 = 1.599203268212326
+
+SP Optim1[1].SP1[16] <Bandpass_Filter_lib:bpf:schematic>  optIter=16  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #16:
+  CurrentEF: 0.0787242902212792
+  Optimization variables:
+    l1 = 15.91299789927816
+    l2 = 15.78274438582147
+    l3 = 15.75944606836101
+    s1 = 512.7459172471216e-03
+    s2 = 1.927653292554321
+    s3 = 2.466424139185874
+    w1 = 1.399999969068582
+    w2 = 1.499999366443429
+    w3 = 1.599995671721433
+
+SP Optim1[1].SP1[17] <Bandpass_Filter_lib:bpf:schematic>  optIter=17  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #17:
+  CurrentEF: 0.0787222902961628
+  Optimization variables:
+    l1 = 15.91307824876653
+    l2 = 15.78254353676525
+    l3 = 15.75985432544958
+    s1 = 512.631448647178e-03
+    s2 = 1.927817189281275
+    s3 = 2.466937151120761
+    w1 = 1.399999967567168
+    w2 = 1.499999337808153
+    w3 = 1.599998358768109
+
+SP Optim1[1].SP1[18] <Bandpass_Filter_lib:bpf:schematic>  optIter=18  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #18:
+  CurrentEF: 0.0787222181729473
+  Optimization variables:
+    l1 = 15.9129353962918
+    l2 = 15.78244837685252
+    l3 = 15.75977435779837
+    s1 = 512.6475821405442e-03
+    s2 = 1.927896895224529
+    s3 = 2.467043443326785
+    w1 = 1.399999964429155
+    w2 = 1.499999281491241
+    w3 = 1.599999905330477
+
+SP Optim1[1].SP1[19] <Bandpass_Filter_lib:bpf:schematic>  optIter=19  freq=(2 GHz->3 GHz)
+
+Iteration/Trial #19:
+  CurrentEF: 0.0787222152784876
+  Optimization variables:
+    l1 = 15.91294075528976
+    l2 = 15.7824542818429
+    l3 = 15.75977894596771
+    s1 = 512.6474198623463e-03
+    s2 = 1.927894048275106
+    s3 = 2.46703792899661
+    w1 = 1.399999964847513
+    w2 = 1.499999288735307
+    w3 = 1.599999985244576
+Optim1[1] terminated due to no more improvement 
+
+Resource usage:
+  Total stopwatch time     =   194.83 seconds.
+

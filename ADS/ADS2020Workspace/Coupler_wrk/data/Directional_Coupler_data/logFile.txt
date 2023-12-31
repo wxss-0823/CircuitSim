@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+OPTIM Optim1[1] <Coupler_lib:directional_coupler:schematic>  optIter=(0->500)
+
+SP Optim1[1].SP1[0] <Coupler_lib:directional_coupler:schematic>  optIter=0  freq=(500 MHz->2.5 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 0
+  Optimization variables:
+    l1 = 27.0865
+    l2 = 27.1583
+    w1 = 2.04661
+    w2 = 5.06942
+Optim1[1] reached the goals. 
+
+Resource usage:
+  Total stopwatch time     =   617.74 seconds.
+

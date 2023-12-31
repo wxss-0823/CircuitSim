@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<prop.map version='4'>
+<prop.list>
+<prop.pair>
+<key>BuiltInKeys</key>
+<array>
+<array.type><string/></array.type>
+<string>$$$/Premiere/FrontEnd/Essentials=Essentials</string>
+<string>$$$/Premiere/FrontEnd/Vertical=Vertical</string>
+<string>$$$/Premiere/FrontEnd/Learning=Learning</string>
+<string>$$$/Premiere/FrontEnd/AllPanels=All Panels</string>
+<string>$$$/Premiere/FrontEnd/Assembly=Assembly</string>
+<string>$$$/Premiere/FrontEnd/Editing=Editing</string>
+<string>$$$/Premiere/FrontEnd/Color=Color</string>
+<string>$$$/Premiere/FrontEnd/Effects=Effects</string>
+<string>$$$/Premiere/FrontEnd/Audio=Audio</string>
+<string>$$$/Premiere/FrontEnd/Metalogging=Metalogging</string>
+<string>$$$/Premiere/FrontEnd/CaptionsGraphicsSpace=Captions and Graphics#{comment}DVAGE-6442</string>
+<string>$$$/Premiere/FrontEnd/Review=Review</string>
+<string>$$$/Premiere/FrontEnd/Libraries=Libraries</string>
+<string>$$$/Premiere/FrontEnd/Production=Production</string>
+<string>$$$/Premiere/FrontEnd/TextBasedEditing=Text-Based Editing</string>
+</array>
+</prop.pair>
+<prop.pair>
+<key>BuiltIns</key>
+<array>
+<array.type><ustring/></array.type>
+</array>
+</prop.pair>
+<prop.pair>
+<key>FilePaths</key>
+<array>
+<array.type><ustring/></array.type>
+<ustring>D:\Users\Wang Xishengshun\OneDrive\文档\Adobe\Premiere Pro\23.0\Profile-Wang Xishengshun\ArchivedLayouts\UserWorkspace_5.xml</ustring>
+<ustring>D:\Users\Wang Xishengshun\OneDrive\文档\Adobe\Premiere Pro\23.0\Profile-Wang Xishengshun\Layouts\UserWorkspace_5.xml</ustring>
+<ustring>D:\Users\Wang Xishengshun\OneDrive\文档\Adobe\Premiere Pro\23.0\Profile-Wang Xishengshun\Layouts\UserWorkspace_2.xml</ustring>
+<ustring>D:\Users\Wang Xishengshun\OneDrive\文档\Adobe\Premiere Pro\23.0\Profile-Wang Xishengshun\Layouts\UserWorkspace_4.xml</ustring>
+<ustring>D:\Users\Wang Xishengshun\OneDrive\文档\Adobe\Premiere Pro\23.0\Profile-Wang Xishengshun\Layouts\UserWorkspace.xml</ustring>
+<ustring>D:\Users\Wang Xishengshun\OneDrive\文档\Adobe\Premiere Pro\23.0\Profile-Wang Xishengshun\Layouts\UserWorkspace_1.xml</ustring>
+<ustring>D:\Users\Wang Xishengshun\OneDrive\文档\Adobe\Premiere Pro\23.0\Profile-Wang Xishengshun\Layouts\UserWorkspace_3.xml</ustring>
+</array>
+</prop.pair>
+<prop.pair>
+<key>MainWndPos</key>
+<prop.list>
+<prop.pair>
+<key>MaxPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>-1</int>
+<int type='signed' size='32'>-1</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>MinPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>-1</int>
+<int type='signed' size='32'>-1</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>NormalPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>10</int>
+<int type='signed' size='32'>10</int>
+<int type='signed' size='32'>2550</int>
+<int type='signed' size='32'>1494</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>ShowCmd</key>
+<int type='signed' size='32'>1</int>
+</prop.pair>
+</prop.list>
+</prop.pair>
+<prop.pair>
+<key>ModifiedTimes</key>
+<array>
+<array.type><string/></array.type>
+<string>20230619T132958.199093</string>
+<string>20230621T141003.922191</string>
+<string>20230619T130218.279549</string>
+<string>20230619T130236.971353</string>
+<string>20230619T125731.580534</string>
+<string>20230619T130639.882933</string>
+<string>20230619T130225.207712</string>
+</array>
+</prop.pair>
+<prop.pair>
+<key>UserNames</key>
+<array>
+<array.type><ustring/></array.type>
+<ustring>1</ustring>
+<ustring>1</ustring>
+<ustring>$$$/Premiere/FrontEnd/Vertical=Vertical</ustring>
+<ustring>$$$/Premiere/FrontEnd/TextBasedEditing=Text-Based Editing</ustring>
+<ustring>$$$/Premiere/FrontEnd/Learning=Learning</ustring>
+<ustring>$$$/Premiere/FrontEnd/Essentials=Essentials</ustring>
+<ustring>$$$/Premiere/FrontEnd/AllPanels=All Panels</ustring>
+</array>
+</prop.pair>
+<prop.pair>
+<key>WorkspaceConfigVersion</key>
+<string>1.1</string>
+</prop.pair>
+<prop.pair>
+<key>WorkspaceTypes</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+</array>
+</prop.pair>
+</prop.list>
+</prop.map>

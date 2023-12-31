@@ -1,0 +1,565 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+OPTIM Optim1[1] <Coupler_lib:Directional_Coupler:schematic>  optIter=(0->800)
+
+SP Optim1[1].SP1[0] <Coupler_lib:Directional_Coupler:schematic>  optIter=0  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 1.983468837714
+  Optimization variables:
+    l1 = 25
+    l2 = 25
+    w1 = 2.91445
+    w2 = 5.0248
+
+SP Optim1[1].SP1[1] <Coupler_lib:Directional_Coupler:schematic>  optIter=1  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #1:
+  CurrentEF: 1.23798615644693
+  Optimization variables:
+    l1 = 28.39929467730473
+    l2 = 29.74871550789015
+    w1 = 2.555452588594483
+    w2 = 5.028948905294459
+
+SP Optim1[1].SP1[2] <Coupler_lib:Directional_Coupler:schematic>  optIter=2  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #2:
+  CurrentEF: 1.02867632659748
+  Optimization variables:
+    l1 = 29.6750062107272
+    l2 = 28.52057193949519
+    w1 = 2.493837233504588
+    w2 = 5.729269823585824
+
+SP Optim1[1].SP1[5] <Coupler_lib:Directional_Coupler:schematic>  optIter=5  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #5:
+  CurrentEF: 0.995827446489819
+  Optimization variables:
+    l1 = 29.31818017245227
+    l2 = 29.51812133915258
+    w1 = 2.427392364454485
+    w2 = 5.765742761395848
+
+SP Optim1[1].SP1[7] <Coupler_lib:Directional_Coupler:schematic>  optIter=7  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #7:
+  CurrentEF: 0.900686166593857
+  Optimization variables:
+    l1 = 29.2755454528086
+    l2 = 29.82045456589879
+    w1 = 2.259353061049888
+    w2 = 5.725234923422956
+
+SP Optim1[1].SP1[11] <Coupler_lib:Directional_Coupler:schematic>  optIter=11  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #11:
+  CurrentEF: 0.875600305425304
+  Optimization variables:
+    l1 = 29.72026836739998
+    l2 = 28.78787385663932
+    w1 = 2.252816492018729
+    w2 = 5.806973482562316
+
+SP Optim1[1].SP1[14] <Coupler_lib:Directional_Coupler:schematic>  optIter=14  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #14:
+  CurrentEF: 0.843267611741466
+  Optimization variables:
+    l1 = 29.54723650174888
+    l2 = 29.70173793753682
+    w1 = 2.193918768732237
+    w2 = 5.764413271456468
+
+SP Optim1[1].SP1[16] <Coupler_lib:Directional_Coupler:schematic>  optIter=16  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #16:
+  CurrentEF: 0.788119592392205
+  Optimization variables:
+    l1 = 29.93075608484126
+    l2 = 28.8067493043819
+    w1 = 2.103164704582223
+    w2 = 5.722723676108714
+
+SP Optim1[1].SP1[18] <Coupler_lib:Directional_Coupler:schematic>  optIter=18  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #18:
+  CurrentEF: 0.786032625010282
+  Optimization variables:
+    l1 = 29.98898101974474
+    l2 = 29.06774466675962
+    w1 = 2.105594861164568
+    w2 = 5.657676930777217
+
+SP Optim1[1].SP1[20] <Coupler_lib:Directional_Coupler:schematic>  optIter=20  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #20:
+  CurrentEF: 0.77656073920166
+  Optimization variables:
+    l1 = 29.827045811993
+    l2 = 29.08608165058941
+    w1 = 2.069458927829527
+    w2 = 5.675900335001058
+
+SP Optim1[1].SP1[22] <Coupler_lib:Directional_Coupler:schematic>  optIter=22  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #22:
+  CurrentEF: 0.767518731330843
+  Optimization variables:
+    l1 = 29.80918696607866
+    l2 = 28.25274840215844
+    w1 = 2.03433584502221
+    w2 = 5.768062142673465
+
+SP Optim1[1].SP1[28] <Coupler_lib:Directional_Coupler:schematic>  optIter=28  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #28:
+  CurrentEF: 0.761346833418792
+  Optimization variables:
+    l1 = 29.72856549142876
+    l2 = 28.21043251269475
+    w1 = 2.006636158997263
+    w2 = 5.744025097175205
+
+SP Optim1[1].SP1[38] <Coupler_lib:Directional_Coupler:schematic>  optIter=38  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #38:
+  CurrentEF: 0.758519370270221
+  Optimization variables:
+    l1 = 29.73134584857589
+    l2 = 28.2291652101204
+    w1 = 2.002120605407252
+    w2 = 5.744616781634827
+
+SP Optim1[1].SP1[40] <Coupler_lib:Directional_Coupler:schematic>  optIter=40  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #40:
+  CurrentEF: 0.757878060472857
+  Optimization variables:
+    l1 = 29.81978781557957
+    l2 = 28.13443442289951
+    w1 = 2.010704699596062
+    w2 = 5.757223227599026
+
+SP Optim1[1].SP1[42] <Coupler_lib:Directional_Coupler:schematic>  optIter=42  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #42:
+  CurrentEF: 0.756481910207946
+  Optimization variables:
+    l1 = 29.82786227640564
+    l2 = 28.2289353916186
+    w1 = 2.011620230790154
+    w2 = 5.752532641419274
+
+SP Optim1[1].SP1[43] <Coupler_lib:Directional_Coupler:schematic>  optIter=43  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #43:
+  CurrentEF: 0.739817331076794
+  Optimization variables:
+    l1 = 29.94170093397544
+    l2 = 28.37572711812946
+    w1 = 2.000042368279372
+    w2 = 5.766765838103336
+
+SP Optim1[1].SP1[60] <Coupler_lib:Directional_Coupler:schematic>  optIter=60  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #60:
+  CurrentEF: 0.73978662958789
+  Optimization variables:
+    l1 = 29.94755966556347
+    l2 = 28.37742840173859
+    w1 = 2.00081025774139
+    w2 = 5.766892520001804
+
+SP Optim1[1].SP1[61] <Coupler_lib:Directional_Coupler:schematic>  optIter=61  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #61:
+  CurrentEF: 0.739295847900398
+  Optimization variables:
+    l1 = 29.95323647224028
+    l2 = 28.37694783965339
+    w1 = 2.000766873845294
+    w2 = 5.768510304038847
+
+SP Optim1[1].SP1[67] <Coupler_lib:Directional_Coupler:schematic>  optIter=67  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #67:
+  CurrentEF: 0.739196811102169
+  Optimization variables:
+    l1 = 29.95217908538984
+    l2 = 28.37508967329387
+    w1 = 2.000273015698196
+    w2 = 5.767906323257001
+
+SP Optim1[1].SP1[69] <Coupler_lib:Directional_Coupler:schematic>  optIter=69  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #69:
+  CurrentEF: 0.739097526413381
+  Optimization variables:
+    l1 = 29.97052913798369
+    l2 = 28.37018117456198
+    w1 = 2.002340873484079
+    w2 = 5.768551520591809
+
+SP Optim1[1].SP1[70] <Coupler_lib:Directional_Coupler:schematic>  optIter=70  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #70:
+  CurrentEF: 0.738474235915406
+  Optimization variables:
+    l1 = 29.96748220975145
+    l2 = 28.37654749599924
+    w1 = 2.000924534289105
+    w2 = 5.768623777475301
+
+SP Optim1[1].SP1[71] <Coupler_lib:Directional_Coupler:schematic>  optIter=71  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #71:
+  CurrentEF: 0.737806078699828
+  Optimization variables:
+    l1 = 29.9776684174806
+    l2 = 28.36947523142778
+    w1 = 2.000525895507941
+    w2 = 5.768026796112159
+
+SP Optim1[1].SP1[73] <Coupler_lib:Directional_Coupler:schematic>  optIter=73  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #73:
+  CurrentEF: 0.737662715747257
+  Optimization variables:
+    l1 = 29.98226897029598
+    l2 = 28.37231675203958
+    w1 = 2.001085462687519
+    w2 = 5.769092713479679
+
+SP Optim1[1].SP1[76] <Coupler_lib:Directional_Coupler:schematic>  optIter=76  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #76:
+  CurrentEF: 0.737001736678031
+  Optimization variables:
+    l1 = 29.98706429510868
+    l2 = 28.37609925453943
+    w1 = 2.000565698360783
+    w2 = 5.769593160030405
+
+SP Optim1[1].SP1[78] <Coupler_lib:Directional_Coupler:schematic>  optIter=78  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #78:
+  CurrentEF: 0.736367992390431
+  Optimization variables:
+    l1 = 29.99499143544579
+    l2 = 28.38647895252028
+    w1 = 2.000575838689974
+    w2 = 5.769009980716971
+
+SP Optim1[1].SP1[83] <Coupler_lib:Directional_Coupler:schematic>  optIter=83  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #83:
+  CurrentEF: 0.736343753386319
+  Optimization variables:
+    l1 = 29.99492736390633
+    l2 = 28.38465072243032
+    w1 = 2.000559589353601
+    w2 = 5.76972245703487
+
+SP Optim1[1].SP1[86] <Coupler_lib:Directional_Coupler:schematic>  optIter=86  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #86:
+  CurrentEF: 0.736312880350417
+  Optimization variables:
+    l1 = 29.99492216799172
+    l2 = 28.38061387665005
+    w1 = 2.000629363725151
+    w2 = 5.771576070252678
+
+SP Optim1[1].SP1[87] <Coupler_lib:Directional_Coupler:schematic>  optIter=87  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #87:
+  CurrentEF: 0.736291398939616
+  Optimization variables:
+    l1 = 29.99536170541925
+    l2 = 28.38031498699352
+    w1 = 2.000676820028627
+    w2 = 5.77188029786146
+
+SP Optim1[1].SP1[88] <Coupler_lib:Directional_Coupler:schematic>  optIter=88  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #88:
+  CurrentEF: 0.736152832202079
+  Optimization variables:
+    l1 = 29.99488710446664
+    l2 = 28.37895294680274
+    w1 = 2.00032435540367
+    w2 = 5.772143337123953
+
+SP Optim1[1].SP1[94] <Coupler_lib:Directional_Coupler:schematic>  optIter=94  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #94:
+  CurrentEF: 0.736131501204435
+  Optimization variables:
+    l1 = 29.99518950174231
+    l2 = 28.37792362392039
+    w1 = 2.000452786366589
+    w2 = 5.773275968543079
+
+SP Optim1[1].SP1[95] <Coupler_lib:Directional_Coupler:schematic>  optIter=95  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #95:
+  CurrentEF: 0.736040302431929
+  Optimization variables:
+    l1 = 29.99513112063935
+    l2 = 28.37718474937343
+    w1 = 2.000234086014225
+    w2 = 5.77328375741991
+
+SP Optim1[1].SP1[102] <Coupler_lib:Directional_Coupler:schematic>  optIter=102  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #102:
+  CurrentEF: 0.73600358305064
+  Optimization variables:
+    l1 = 29.99448497226253
+    l2 = 28.3785913410431
+    w1 = 2.000019988922856
+    w2 = 5.772569746304623
+
+SP Optim1[1].SP1[105] <Coupler_lib:Directional_Coupler:schematic>  optIter=105  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #105:
+  CurrentEF: 0.736001305835736
+  Optimization variables:
+    l1 = 29.99446973679496
+    l2 = 28.37957330479621
+    w1 = 2.00002194907706
+    w2 = 5.772391193109632
+
+SP Optim1[1].SP1[115] <Coupler_lib:Directional_Coupler:schematic>  optIter=115  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #115:
+  CurrentEF: 0.735933769940339
+  Optimization variables:
+    l1 = 29.99541900042712
+    l2 = 28.38002228470865
+    w1 = 2.00003522358265
+    w2 = 5.772479285038727
+
+SP Optim1[1].SP1[120] <Coupler_lib:Directional_Coupler:schematic>  optIter=120  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #120:
+  CurrentEF: 0.735932372877444
+  Optimization variables:
+    l1 = 29.99513322877601
+    l2 = 28.37966390016456
+    w1 = 2.000005400367143
+    w2 = 5.77262888758846
+
+SP Optim1[1].SP1[122] <Coupler_lib:Directional_Coupler:schematic>  optIter=122  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #122:
+  CurrentEF: 0.735893499144104
+  Optimization variables:
+    l1 = 29.99568656017782
+    l2 = 28.38049458005294
+    w1 = 2.000022309457776
+    w2 = 5.772598176744362
+
+SP Optim1[1].SP1[123] <Coupler_lib:Directional_Coupler:schematic>  optIter=123  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #123:
+  CurrentEF: 0.735831679035419
+  Optimization variables:
+    l1 = 29.99628405201524
+    l2 = 28.38243498342729
+    w1 = 2.000005515494732
+    w2 = 5.772350673921621
+
+SP Optim1[1].SP1[124] <Coupler_lib:Directional_Coupler:schematic>  optIter=124  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #124:
+  CurrentEF: 0.735714146057513
+  Optimization variables:
+    l1 = 29.99777710286444
+    l2 = 28.38619888186244
+    w1 = 2.000014892477056
+    w2 = 5.771833372240322
+
+SP Optim1[1].SP1[135] <Coupler_lib:Directional_Coupler:schematic>  optIter=135  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #135:
+  CurrentEF: 0.735661045938168
+  Optimization variables:
+    l1 = 29.99828093489412
+    l2 = 28.38624143378178
+    w1 = 2.000014005195843
+    w2 = 5.772108171890302
+
+SP Optim1[1].SP1[147] <Coupler_lib:Directional_Coupler:schematic>  optIter=147  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #147:
+  CurrentEF: 0.735658549769973
+  Optimization variables:
+    l1 = 29.99816836821161
+    l2 = 28.38642845801407
+    w1 = 2.000007459011443
+    w2 = 5.772149374697688
+
+SP Optim1[1].SP1[213] <Coupler_lib:Directional_Coupler:schematic>  optIter=213  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #213:
+  CurrentEF: 0.735648479124506
+  Optimization variables:
+    l1 = 29.99818276103966
+    l2 = 28.38649989086991
+    w1 = 2.000057201485717
+    w2 = 5.772587168913452
+
+SP Optim1[1].SP1[221] <Coupler_lib:Directional_Coupler:schematic>  optIter=221  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #221:
+  CurrentEF: 0.73561463327738
+  Optimization variables:
+    l1 = 29.99796093768661
+    l2 = 28.38652754713918
+    w1 = 2.000115964931264
+    w2 = 5.77361844062385
+
+SP Optim1[1].SP1[227] <Coupler_lib:Directional_Coupler:schematic>  optIter=227  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #227:
+  CurrentEF: 0.735587306648326
+  Optimization variables:
+    l1 = 29.99795409489017
+    l2 = 28.38655481327188
+    w1 = 2.000089675156005
+    w2 = 5.773813168875829
+
+SP Optim1[1].SP1[228] <Coupler_lib:Directional_Coupler:schematic>  optIter=228  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #228:
+  CurrentEF: 0.735009151908652
+  Optimization variables:
+    l1 = 29.99680008729888
+    l2 = 28.38717086308902
+    w1 = 2.000099615345856
+    w2 = 5.782548743431835
+
+SP Optim1[1].SP1[230] <Coupler_lib:Directional_Coupler:schematic>  optIter=230  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #230:
+  CurrentEF: 0.734948675126731
+  Optimization variables:
+    l1 = 29.99625571668281
+    l2 = 28.38670913153711
+    w1 = 2.000212728353431
+    w2 = 5.784694810919126
+
+SP Optim1[1].SP1[231] <Coupler_lib:Directional_Coupler:schematic>  optIter=231  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #231:
+  CurrentEF: 0.734183090337634
+  Optimization variables:
+    l1 = 29.99220996712533
+    l2 = 28.38568170960929
+    w1 = 2.001079357219981
+    w2 = 5.804533513286687
+
+SP Optim1[1].SP1[232] <Coupler_lib:Directional_Coupler:schematic>  optIter=232  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #232:
+  CurrentEF: 0.732470931262064
+  Optimization variables:
+    l1 = 29.98339788471524
+    l2 = 28.38358874491511
+    w1 = 2.002903142057635
+    w2 = 5.847929026607065
+
+SP Optim1[1].SP1[233] <Coupler_lib:Directional_Coupler:schematic>  optIter=233  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #233:
+  CurrentEF: 0.731740738216989
+  Optimization variables:
+    l1 = 29.97507649798009
+    l2 = 28.38050945737441
+    w1 = 2.005458825309472
+    w2 = 5.882692979078958
+
+SP Optim1[1].SP1[234] <Coupler_lib:Directional_Coupler:schematic>  optIter=234  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #234:
+  CurrentEF: 0.728725415647762
+  Optimization variables:
+    l1 = 29.95837606923208
+    l2 = 28.37611200429267
+    w1 = 2.009145579813572
+    w2 = 5.963484841543457
+
+SP Optim1[1].SP1[241] <Coupler_lib:Directional_Coupler:schematic>  optIter=241  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #241:
+  CurrentEF: 0.728111007714922
+  Optimization variables:
+    l1 = 29.96015518548353
+    l2 = 28.3774692380678
+    w1 = 2.007872512688086
+    w2 = 5.961539472930752
+
+SP Optim1[1].SP1[271] <Coupler_lib:Directional_Coupler:schematic>  optIter=271  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #271:
+  CurrentEF: 0.725225015443962
+  Optimization variables:
+    l1 = 29.9687256705886
+    l2 = 28.38390115642417
+    w1 = 2.001747025940217
+    w2 = 5.951305780125008
+
+SP Optim1[1].SP1[296] <Coupler_lib:Directional_Coupler:schematic>  optIter=296  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #296:
+  CurrentEF: 0.724948014663029
+  Optimization variables:
+    l1 = 29.97012951105555
+    l2 = 28.38488905841533
+    w1 = 2.000901721181828
+    w2 = 5.948036232606994
+
+SP Optim1[1].SP1[318] <Coupler_lib:Directional_Coupler:schematic>  optIter=318  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #318:
+  CurrentEF: 0.724905490355061
+  Optimization variables:
+    l1 = 29.97520322466202
+    l2 = 28.38793093009699
+    w1 = 2.006681684110106
+    w2 = 5.98189183461117
+
+SP Optim1[1].SP1[333] <Coupler_lib:Directional_Coupler:schematic>  optIter=333  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #333:
+  CurrentEF: 0.723039045242767
+  Optimization variables:
+    l1 = 29.97493808256859
+    l2 = 28.4342942445539
+    w1 = 2.003039761885616
+    w2 = 5.972008936283146
+
+SP Optim1[1].SP1[337] <Coupler_lib:Directional_Coupler:schematic>  optIter=337  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #337:
+  CurrentEF: 0.722146173173002
+  Optimization variables:
+    l1 = 29.96520736949536
+    l2 = 28.43394926359403
+    w1 = 2.000971954867016
+    w2 = 5.978814906152543
+
+SP Optim1[1].SP1[340] <Coupler_lib:Directional_Coupler:schematic>  optIter=340  freq=(600 MHz->1.4 GHz)
+
+Iteration/Trial #340:
+  CurrentEF: 0.721795661971373
+  Optimization variables:
+    l1 = 29.96724659100483
+    l2 = 28.43658811292125
+    w1 = 2.001125086550837

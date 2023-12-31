@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=Bandpass_Filter_lib:bpf:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

@@ -1,0 +1,492 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width,intial-scale=0,maximum-scale=0,user-scalable=yes,shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+		<meta http-equiv="expires" content="0">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<title>首页</title>
+	</head>
+	<body>
+		<header class="content">
+			<div class="clearfix">
+				<div class="left fl logo">
+					<a href="">
+						<img src="img/logo.png" alt="">
+						阅读器
+					</a>
+				</div>
+				<nav class="right fr">
+					<a href="#" class="on">首页</a>
+					<a href="download.html">下载中心</a>
+					<a href="guide.html">使用指南</a>
+					<a href="question.html">常见问题</a>
+					<!-- <a href="https://cajviewer.cnki.net/" class="goback" target="_blank">旧版入口</a> -->
+				</nav>
+			</div>
+		</header>
+
+		<div class="banner">
+			<div class="fullSlide">
+				<div class="bd">
+					<ul>
+						<li>
+							<img src="img/banner_caj.png">
+							<div class="content">
+								<div class="cajImg">
+									<img src="img/Group.png">
+									<span style="padding-left: 4px;">全新升级</span>
+								</div>
+								<div class="pInfo">
+									<p>数百万用户信赖，专业文献阅读器，</p>
+									<p>使用我们的软件，可阅读CAJ、PDF等多种格式文件，</p>
+									<p>新增的文献管理、提取目录、文档翻译等功能，让阅读效率翻倍。</p>
+								</div>
+								<div class="btnBox">
+									<a href="https://download.cnki.net/CAJViewer 8.1_x64-setup.exe" class="win winnew" download="">Windows 客户端</a>
+									<a href="https://download.cnki.net/cajviewer-1.3.20-3.dmg" class="Mac">Mac 客户端</a>
+									<a href="javascript:void(0)"  class="Lin">Linux 客户端</a>
+									<!-- <div class="menus">
+										<ul>
+											<li><a href="">CAJViewer 8 (64-bit) </a></li>
+											<li><a href="">CAJViewer 7.3</a></li>
+											<li><a href="javascript:void(0)" class="openMenu">更多</a></li>
+			
+											</ul>
+									</div> -->
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/banner_pc.png">
+							<div class="content">
+								<div class="cajImg" style="padding-bottom: 2px">
+									<!-- <img src="img/Group.png"> -->
+									<span>全球学术快报 · 桌面版</span>
+								</div>
+								<div class="pInfo">
+									<p>集文献检索、管理、阅读于一体的学习软件，</p>
+									<p>使用我们的软件，可阅读CAJ、PDF、EPUB等多种格式文件，</p>
+									<p> 一站式检索下载CNKI文献，文献和笔记多设备云同步，个性化定制等服务。</p>
+								</div>
+								 <!-- style="padding-top: 22px;" -->
+								<div class="btnBox">
+									<a href="https://download.cnki.net/cnkiexpress/全球学术快报 Setup 0.2.31.exe" download="">Windows 客户端</a>
+									<a href="javascript:void(0)" download="" class="macHover">Mac 客户端</a>
+									
+									<a href="javascript:void(0)" download="" class="LinuxHover">Linux 客户端</a>
+									<!-- <div class="menus LinuxHoverMenus">
+										<ul>
+											<li><a href="">CAJViewer 8 (64-bit) </a></li>
+											<li><a href="">CAJViewer 7.3</a></li>
+										</ul>
+									</div> -->
+									<!-- <a href="https://download.cnki.net/cnkiexpress/cnkiexpress_0.2.30_amd64.deb" download="">Linux 客户端</a> -->
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="img/banner_app.png">
+							<div class="content">
+								<div class="cajImg" style="padding-bottom: 5px;">
+									<!-- <img src="img/Group.png"> -->
+									<span>全球学术快报APP</span>
+								</div>
+								<div class="pInfo" style="margin-bottom: 20px;">
+									<p>全球文献整合，学术热点速递，</p>
+									<p>整合阅读、交流、设备同步、智能推送等功能于一体。</p>
+								</div>
+								<div class="btnBox">
+									<img src="img/banner_app_code.png" alt="" style="height: 91px;">
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="hd">
+					<ul></ul>
+				</div>
+			</div>
+		</div>
+
+		<ul class="contentA content clearfix">
+			<li>
+				<a href="guide.html?name=newIndex">
+					<img src="img/jingang01.png" alt="">
+					<h3>全新首页</h3>
+					<p>更易上手新体验</p>
+					<p>简约但不简单</p>
+				</a>
+
+			</li>
+			<li>
+				<a href="guide.html?name=documentContent">
+					<img src="img/jingang04.png" alt="">
+					<h3>文档翻译</h3>
+					<p>一键翻译英文文档</p>
+					<p>让翻译更简单</p>
+				</a>
+			</li>
+			<li>
+				<a href="guide.html?name=docMange">
+					<img src="img/jingang05.png" alt="">
+					<h3>分组收藏</h3>
+					<p>轻松一目了然的</p>
+					<p>进行分组管理</p>
+				</a>
+			</li>
+			<li>
+				<a href="guide.html?name=auxiliaryReading">
+					<img src="img/jingang03.png" alt="">
+					<h3>辅助阅读</h3>
+					<p>快捷获取重要信息</p>
+					<p>了解文档结构</p>
+				</a>
+			</li>
+			
+			<li>
+				<a href="guide.html?name=mulu">
+					<img src="img/jingang02.png" alt="">
+					<h3>智能目录</h3>
+					<p>全面的文档目录</p>
+					<p>提升阅读效率</p>
+				</a>
+			</li>
+		</ul>
+
+		<div class="contentB content">
+			<div class="top" style="height: 202px;">
+				<h3>全新首页，简约不简单</h3>
+				<p>系统的管理本地文献，浏览历史文献、收藏分组等功能，满足学习场景</p>
+			</div>
+			<img src="img/gif1.gif" alt="">
+		</div>
+		<div class="contentB contentD content clearfix" style="margin-top: 10px;">
+			<div class="top" style="height: 195px;">
+				<h3>文档翻译，让翻译更简单</h3>
+				<p>一键免费翻译英文文档，保留原文版式，专业的词汇库，接近自然语言方式组织</p>
+			</div>
+			<img src="img/gif2.gif" alt="">
+		</div>
+
+		<div class="contentB contentC content">
+			<div class="top">
+				<h3>辅助阅读，智能提取信息</h3>
+				<p>智能提取目录和题录信息，辅助用户了解文档结构信息，无网也能使用</p>
+			</div>
+			<img src="img/gif3.gif" alt="">
+		</div>
+
+		
+
+		<div class="contentE content">
+			<h3>和他们一起使用CAJ阅读器</h3>
+			<p style="padding-top: 15px;">来自超过 240,000+ 用户的真实反馈</p>
+		</div>
+
+		<div class="contentF">
+			<div class="slider">
+
+				<div class="bd">
+					<ul>
+
+						<li>
+							<div class="top">
+								<div class="img">
+									<img src="img/ren.png" alt="">
+								</div>
+								<div class="info">
+									<h3>王同学</h3>
+									<p>北京师范大学</p>
+								</div>
+							</div>
+							<div class="botom">
+								一次打开多篇CAJ格式的文档，节约了我的时间。遇到看不懂的英文文档，一键翻译成中文文档，完全免费，真实良心功能。没有目录的文档，生成智能目录。一键标亮所有关键词，对喜欢粗读的我简直是福音。
+							</div>
+						</li>
+						<li>
+							<div class="top">
+								<div class="img">
+									<img src="img/ren2.png" alt="">
+								</div>
+								<div class="info">
+									<h3>刘同学</h3>
+									<p>山西大学</p>
+								</div>
+							</div>
+							<div class="botom">
+								文档可以分组收藏起来，便于文档管理。标注工具很丰富，有高亮、下划线和批注功能，还可以根据喜好自定义背景和文字颜色，开启护眼模式。很神奇的功能是批量文件搜索，在打开的全部文档里搜索关键词，方便全局查找。
+							</div>
+						</li>
+		 			<li>
+							<div class="top">
+								<div class="img">
+									<img src="img/ren3.png" alt="">
+								</div>
+								<div class="info">
+									<h3>石同学</h3>
+									<p>厦门大学</p>
+								</div>
+							</div>
+							<div class="botom">
+								专业的文档阅读工具，软件启动速度很快，版式看着很舒服，翻页很流畅。最喜欢的功能是文字识别，把扫描的图片转文字。这些功能对我来说足够用了，对熬夜刷论文的人非常需要。
+							</div>
+						</li>
+						<li>
+							<div class="top">
+								<div class="img">
+									<img src="img/ren4.png" alt="">
+								</div>
+								<div class="info">
+									<h3>张同学</h3>
+									<p>南京大学</p>
+								</div>
+							</div>
+							<div class="botom">
+								软件简单好上手，选中高亮按钮，可以一直标记高亮段落。可以隐藏标注，不打扰文献阅读。一键把英文翻译成中文文献，版式完整，重点还是免费的，这个功能太好了。很多文献没有目录，可以智能识别目录，提高了我学习的效率。
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+
+
+
+			</div>
+
+		</div>
+
+
+
+
+
+		<div class="contentG">
+			<h3>数百万用户信赖，专业文献阅读器</h3>
+			<p>文献和笔记管理，提高学习效率，辅助学者深度阅读</p>
+			<a href="download.html">立即下载</a>
+		</div>
+
+
+		<footer class="footer">
+			<div class="content">
+				京 ICP 证 040431 号网络出版服务许可证 (总)网出证(京)字第 271 号出版物经营许可证 京公网安备 11010802020460 号 同方知网（北京）技术有限公司
+				<span class="fr">
+					<a href="download.html">下载</a>
+					<a href="guide.html">使用指南</a>
+					<a href="question.html">常见问题</a>
+				</span>
+			</div>
+		</footer>
+
+		<div class="fixedQuestionnaire">
+			<a href="https://www.wjx.cn/vm/tUXXPAN.aspx" target="_blank">
+				<img src="img/questionnaire.png" alt="questionnaire for cajviewer"/>
+			</a>
+		</div>
+
+		<div class="fixed">
+			<img src="img/caj.png" alt="">
+			<div class="ques">
+				<a href="https://cajviewer.cnki.net/feedback/feedback.aspx" target="_blank">
+					意见反馈
+				</a>
+			</div>
+			<div class="link">
+				<a href="https://help.cnki.net/" target="_blank">
+					联系我们
+				</a>
+			</div>
+		</div>
+
+
+		<div class="windows layer_content">
+			<div class="title">欢迎下载Windows客户端</div>
+			<table>
+				<thead>
+					<tr>
+						<th width = "260">版本号</th>
+						<th>可支持版本</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>CAJViewer 8</td>
+						<td>
+							<a href="https://download.cnki.net/CAJViewer 8.1_x64-setup.exe" download="" data-time="2023-02-02">64-bit</a>
+							<a href="https://download.cnki.net/CAJViewer8.0.1.1-setup.exe" download="" data-time="2022-10-09">32-bit</a>
+						</td>
+					</tr>
+					<tr>
+						<td>CAJViewer 7.3.151</td>
+						<td>
+							<a href="https://download.cnki.net/CAJViewer 7.3.151.self.exe" download="" data-time="2022-06-08">通用版</a>
+							<a href="https://download.cnki.net/CAJViewer 7.3.151.Simple.self.exe" download="" data-time="2022-06-08">精简版</a>
+						</td>
+					</tr>
+					<tr>
+						<td>CAJViewer 7.2</td>
+						<td>
+							<a href="https://download.cnki.net/CAJViewer 7.2.0.117.self.exe" download="" data-time="2019-04-04">通用版</a>
+							<a href="https://download.cnki.net/CAJViewer 7.2_big5.self.zip" download="" data-time="2013-08-23">繁体版</a>
+							<a href="https://download.cnki.net/CAJViewer 7.2.self_工具书版.exe" download="" data-time="2013-11-19">工具书版</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="Linux layer_content">
+			<div class="title">欢迎下载 Linux 客户端</div>
+			<table>
+				<thead>
+					<tr>
+						<th width = "260">操作系统</th>
+						<th>架构</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Linux</td>
+						<td>
+							<a href="https://download.cnki.net/cajviewer_1.3.20-1_amd64.deb" download="" data-time="2023-02-26" style="width: auto">x86 （Ubuntu 16.04及以上）</a>
+						</td>
+					</tr>
+					<tr>
+						<td>统信 UOS</td>
+						<td>
+							<a href="https://download.cnki.net/net.cnki.cajviewer_1.0.3.0_amd64.deb" download="" data-time="2021-04-01">x86</a>
+							<a href="https://download.cnki.net/net.cnki.cajviewer_1.0.3.1_arm64.deb" download="" data-time="2021-04-01">鲲鹏</a>
+							<a href="https://download.cnki.net/net.cnki.cajviewer_1.0.3.1_arm64.deb" download="" data-time="2021-04-01">飞腾</a>
+							<a href="https://download.cnki.net/net.cnki.cajviewer_1.0.3.1_arm64.deb" download="" data-time="2021-04-01">麒麟</a>
+							<a href="https://download.cnki.net/net.cnki.cajviewer_1.0.1.2_mips64.deb" download="" data-time="2021-04-01" style="margin-top: 15px;">龙芯</a>
+							<a href="https://download.cnki.net/net.cnki.cajviewer_1.0.0.0_sw_64.deb" download="" data-time="2021-04-01" style="margin-top: 15px;">申威</a>
+						</td>
+					</tr>
+					<tr>
+						<td>银河麒麟</td>
+						<td>
+							<a href="https://download.cnki.net/cajviewer_1.0.3.0_amd64.deb" download="" data-time="2021-04-01">x86</a>
+							<a href="https://download.cnki.net/cajviewer_1.0.3.2_arm64.deb" download="" data-time="2021-04-01">飞腾</a>
+							<a href="https://download.cnki.net/cajviewer_1.0.3.0_mips64.deb" download="" data-time="2021-04-29">龙芯</a>
+						</td>
+					</tr>
+					<tr>
+						<td>中标麒麟</td>
+						<td>
+							<a href="https://download.cnki.net/cajviewer-1.0-1.el7.noarch.rpm" download="" data-time="2021-04-01">兆芯</a>
+							<a href="https://download.cnki.net/cajviewer-1.0.3-1.nd7.mips64el.rpm" download="" data-time="2021-04-01">龙芯</a>
+						</td>
+					</tr>
+					<tr>
+						<td>中科方德</td>
+						<td>
+							<a href="https://download.cnki.net/cajviewer_1.0.3.0_amd64.deb" download="" data-time="2021-04-01">兆芯</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+
+
+
+		<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>
+		<script src="js/layer-v3.5.1/layer/layer.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+		<!-- <script src="js/index.js"></script> -->
+		<script src="js/common.js"></script>
+		<script src="js/hrefCommon.js"></script>
+		<script type="text/javascript">
+			jQuery(".fullSlide").slide({
+				titCell: ".hd > ul",
+				mainCell: ".bd > ul",
+				effect: "fold",
+				autoPlay: true,
+				autoPage: true,
+				trigger: "mouseover"
+			});
+			// jQuery(".fullSlide1").slide({mainCell:".bd ul", effect:"leftLoop",  autoPlay:true, autoPage:true, trigger:"click" });
+
+
+			/* 把最后一个放到第一个前面，然后通过外层ul{margin-left:-980px !important; }来显示第一个 */
+			jQuery(".slider .bd li").first().before(jQuery(".slider .bd li").last());
+
+			/* 调用SuperSlide */
+			jQuery(".slider").slide({
+				mainCell: ".bd ul",
+				effect: "leftLoop",
+				interTime:7000,
+				autoPlay: true,
+				vis: 3,
+				autoPage: true,
+				trigger: "click"
+			});
+			
+			window.onscroll = function(){
+			    let availHeight = document.documentElement.clientHeight;
+			    let _top = document.documentElement.scrollTop
+				if(_top >= availHeight){
+					document.getElementsByClassName('fixed')[0].style.display = 'block'
+					document.getElementsByClassName('fixedQuestionnaire')[0].style.display = 'block'
+				}else{
+					document.getElementsByClassName('fixed')[0].style.display = 'none'
+					document.getElementsByClassName('fixedQuestionnaire')[0].style.display = 'none'
+				}
+			}
+			// let timer = setInterval(function(){
+			// 	if($('.menus').length > 0){
+			// 		console.log($('.menus').css('display'))
+			// 		if($('.menus').css('display') == 'none'){
+			// 			$('.menus').remove()
+			// 		}
+					
+			// 	}
+			// },300)
+			// $(document).on('scroll',function(){
+			// 	$('.menus').remove();
+			// })
+			
+			
+			// <!-- <div class="menus macHoverMenus">
+				// <ul>
+					// <li><a href="">CAJViewer 8 (64-bit) </a></li>
+					// <li><a href="">CAJViewer 7.3</a></li>
+				// </ul>
+			// </div> -->
+			$('.macHover').mouseover(function(){
+				if($('.macHoverMenus').length > 0){
+					$('.macHoverMenus').show()
+				}else{
+					let _div = '<div class="menus macHoverMenus"><ul><li><a href="https://download.cnki.net/cnkiexpress/全球学术快报-0.2.31.dmg">x64</a></li><li><a href="https://download.cnki.net/cnkiexpress/全球学术快报-0.2.31-arm64.dmg">M系列</a></li></ul></div>';
+					$(this).prepend(_div)
+					$('.macHoverMenus').show()
+				}
+				
+			}).mouseleave(function(){
+				$('.macHoverMenus').hide()
+			})
+			
+			$('.LinuxHover').mouseover(function(){
+				if($('.LinuxHoverMenus').length > 0){
+					$('.LinuxHoverMenus').show()
+				}else{
+					let _div = '<div class="menus LinuxHoverMenus"><ul><li><a href="https://download.cnki.net/cnkiexpress/cnkiexpress_0.2.31_amd64.deb">.deb</a></li><li><a href="https://download.cnki.net/cnkiexpress/cnkiexpress_0.2.31.x86_64.rpm">.rpm</a></li></ul></div>';
+					$(this).prepend(_div)
+					$('.LinuxHoverMenus').show()
+				}
+				
+			}).mouseleave(function(){
+				$('.LinuxHoverMenus').hide()
+			})
+			
+		</script>
+	</body>
+</html>

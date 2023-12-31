@@ -1,0 +1,19 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "MyFirstWorkspace_lib:Wilkinson:emModel"
+  parameterNames = list("Substrate","MeshDensity")
+  parameterValues = list("definedInState","20")
+  topLevel design name = "MyFirstWorkspace_lib:Wilkinson_comb:schematic"
+  instance name = "P1.em_data"
+  processID = "56584@127.0.0.1:hpeesofsim:_unique58900_14"
+  visible = TRUE
+Connected to external process by processID
+..handle = 17
+..pid = 56584@127.0.0.1:hpeesofsim:_unique58900_14
+..name = hpeesofsim
+..disable simulation log popup
+..simulation M230929015442 started
+..simulation M230929015442 ended
+EM simulation finished successfully
+..adding new data to EM model view: Success Added simulation data.
+..sending DONE to parent

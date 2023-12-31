@@ -1,0 +1,63 @@
+; Top Design: "Coupler_lib:directional_coupler:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="Coupler_lib:directional_coupler:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+model MSub1 MSUB H=1.6 mm Er=4.6 Mur=1 Cond=5.88E+7 Hu=1e+33 mm T=0.035 mm TanD=1e-4 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MTEE_ADS:Tee1  N__1 N__2 N__0 Subst="MSub1" W1=w1 mm W2=w2 mm W3=w1 mm 
+MTEE_ADS:Tee2  N__4 N__3 N__5 Subst="MSub1" W1=w2 mm W2=w1 mm W3=w1 mm 
+MTEE_ADS:Tee3  N__7 N__6 N__8 Subst="MSub1" W1=w2 mm W2=w1 mm W3=w1 mm 
+MTEE_ADS:Tee4  N__10 N__9 N__11 Subst="MSub1" W1=w1 mm W2=w2 mm W3=w1 mm 
+MLIN2:TL7  N__0 N__8 Subst="MSub1" W=w1 mm L=l1 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL8  N__5 N__11 Subst="MSub1" W=w1 mm L=l1 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL1  N__26 N__1 Subst="MSub1" W=w1 mm L=8 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL2  N__2 N__4 Subst="MSub1" W=w2 mm L=l2 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL3  N__3 N__14 Subst="MSub1" W=w1 mm L=8 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL4  N__18 N__6 Subst="MSub1" W=w1 mm L=8 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL5  N__7 N__9 Subst="MSub1" W=w2 mm L=l2 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+MLIN2:TL6  N__10 N__27 Subst="MSub1" W=w1 mm L=8 mm Wall1=2.5e+28 mm Wall2=2.5e+28 mm Mod=1 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=0.5 GHz Stop=2.5 GHz Step=0.001 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+
+w1=2.04661 opt{ 2 to 3 }
+w2=5.06942 opt{ 4.9 to 5.1 }
+l1=27.0865 opt{ 25 to 30 }
+l2=27.1583 opt{ 25 to 30 }
+Port:Term1  N__26 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__14 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term3  N__27 0 Num=3 Z=50 Ohm Noise=yes 
+Port:Term4  N__18 0 Num=4 Z=50 Ohm Noise=yes 
+
+Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" MaxIters=500 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 NumShootsPerIter=20 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
+OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="LessThan" Max=-1 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=6e+08 IndepMax[1]=1.4e+09 
+OptimGoal:OptimGoal2 Expr="dB(S(3,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" 
+SpecLimitLine:"OptimGoal2_limit1" Type="LessThan" Max=-4 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=6e+08 IndepMax[1]=1.4e+09 
+OptimGoal:OptimGoal3 Expr="dB(S(4,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal3_limit1" 
+SpecLimitLine:"OptimGoal3_limit1" Type="GreaterThan" Min=-18 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=6e+08 IndepMax[1]=1.4e+09 
+OptimGoal:OptimGoal4 Expr="(1+abs(dB(S(1,1))))/(1-abs(dB(S(1,1))))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal4_limit1" 
+SpecLimitLine:"OptimGoal4_limit1" Type="Inside" Min=-1.8 Max=-1.1 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=6e+08 IndepMax[1]=1.4e+09 

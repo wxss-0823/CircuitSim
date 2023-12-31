@@ -1,0 +1,18 @@
+<!DOCTYPE Display>
+<Display>
+    <Current_Lpp name="cond:drawing"/>
+    <Lpp_Display_Order order="0">
+        <LPP name="silkscreenTop:drawing"/>
+        <LPP name="cond:drawing"/>
+        <LPP name="M2:drawing"/>
+        <LPP name="M3:drawing"/>
+        <LPP name="cond2:drawing"/>
+        <LPP name="silkscreenBottom:drawing"/>
+        <LPP name="cond_cond2:drawing"/>
+        <LPP name="M2_M3:drawing"/>
+        <LPP name="boardBound:drawing"/>
+        <LPP name="silk_screen:drawing"/>
+        <LPP name="silk_screen2:drawing"/>
+        <LPP name="scratch:drawing"/>
+    </Lpp_Display_Order>
+</Display>

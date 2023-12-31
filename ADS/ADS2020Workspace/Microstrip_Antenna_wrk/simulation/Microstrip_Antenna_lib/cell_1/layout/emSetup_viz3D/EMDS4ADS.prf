@@ -1,0 +1,51 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  "D:/Users/Wang Xishengshun/OneDrive/Documents/ADS2020Workspace/Microstrip_Antenna_wrk/simulation/Microstrip_Antenna_lib/cell_1/layout/emSetup_viz3D/EMDS4ADS.prf" 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Material cond2     7.6078431372549016e-01      7.6078431372549016e-01      0.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond2_2     7.6078431372549016e-01      7.6078431372549016e-01      0.0000000000000000e+00  
+  Object cond_3     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 1  0  80  
+  Object cond2_2 1  1  50  
+  Object cond_3 1  1  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position     4.4839978218078613e-02      2.3597152709960938e+01      1.0173209905624390e+00  
+  Target     3.4025907516479492e-01      1.6561126708984375e+01      1.3522509336471558e+00  
+  Up     2.8691765666007996e-01     -3.3526170998811722e-02     -9.5737040042877197e-01  
+      2.8200740814208984e+00      2.8200740814208984e+00  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+

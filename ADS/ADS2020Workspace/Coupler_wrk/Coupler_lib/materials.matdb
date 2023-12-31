@@ -1,0 +1,17 @@
+<!DOCTYPE Materials>
+<Materials>
+    <Conductors>
+        <Conductor mur_imag="" thermal_conductivity_in_z="" tnom="" heat_capacity="2.49E+06" electron_path="" name="Copper" tc1="" tc2="" parmtype="1" imag="" mur_real="1" thermal_conductivity="401" real="5.8e7 Siemens/m"/>
+        <Conductor mur_imag="" thermal_conductivity_in_z="" tnom="" heat_capacity="" electron_path="" name="Typical_solder" tc1="" tc2="" parmtype="1" imag="" mur_real="1" thermal_conductivity="" real="0.71e7 Siemens/m"/>
+    </Conductors>
+    <Dielectrics>
+        <Dielectric er_loss="0.01" mur_imag="" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" valuefreq="1 GHz" heat_capacity="" electron_path="" name="FR_4_Core" lowfreq="1 KHz" er_imag="" mur_real="1" thermal_conductivity="" er_real="4.2"/>
+        <Dielectric er_loss="0.01" mur_imag="" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" valuefreq="1 GHz" heat_capacity="" electron_path="" name="FR_4_Prepreg" lowfreq="1 KHz" er_imag="" mur_real="1" thermal_conductivity="" er_real="4.6"/>
+        <Dielectric er_loss="" mur_imag="" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" valuefreq="1 GHz" heat_capacity="" electron_path="" name="SolderMask" lowfreq="1 KHz" er_imag="" mur_real="1" thermal_conductivity="" er_real="3.3"/>
+        <Dielectric er_loss="0.01" mur_imag="" highfreq="1 THz" thermal_conductivity_in_z="" loss_type="1" valuefreq="1 GHz" heat_capacity="" electron_path="" name="FR_4" lowfreq="1 KHz" er_imag="" mur_real="1" thermal_conductivity="" er_real="4.6"/>
+        <Dielectric er_loss="0" mur_imag="0" highfreq="" thermal_conductivity_in_z="" loss_type="0" valuefreq="" heat_capacity="" electron_path="" name="AIR" lowfreq="" er_imag="" mur_real="1" thermal_conductivity="" er_real="1"/>
+        <Dielectric er_loss="0.0001" mur_imag="0" highfreq="" thermal_conductivity_in_z="" loss_type="0" valuefreq="" heat_capacity="" electron_path="" name="Subst_1" lowfreq="" er_imag="" mur_real="1" thermal_conductivity="" er_real="4.6"/>
+    </Dielectrics>
+    <Semiconductors/>
+    <roughness/>
+</Materials>

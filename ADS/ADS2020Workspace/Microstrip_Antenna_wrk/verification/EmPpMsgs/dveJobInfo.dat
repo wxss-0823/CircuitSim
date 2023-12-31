@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=Microstrip_Antenna_lib:microstrip_antenna:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

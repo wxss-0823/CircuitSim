@@ -1,0 +1,63 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  "D:/Users/Wang Xishengshun/OneDrive/Documents/ADS/ADS2020Workspace/Bandpass_Filter_wrk/simulation/Bandpass_Filter_lib/bpf/layout/emSetup_viz3D/EMDS4ADS.prf" 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Material __BOTTOM     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object __BOTTOM_2     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond_3     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Object cond_4     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Object cond_5     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Object cond_6     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Object cond_7     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Object cond_8     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Object cond_9     1.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 1  0  80  
+  Object __BOTTOM_2 1  1  50  
+  Object cond_3 1  1  50  
+  Object cond_4 1  1  50  
+  Object cond_5 1  1  50  
+  Object cond_6 1  1  50  
+  Object cond_7 1  1  50  
+  Object cond_8 1  1  50  
+  Object cond_9 1  1  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position    -3.7000219821929932e+00     -1.5873800277709961e+01      4.7109713554382324e+00  
+  Target     5.1295828819274902e-01      9.2307835817337036e-01      7.2372651100158691e-01  
+  Up     2.4328194558620453e-01      1.6583809256553650e-01      9.5567345619201660e-01  
+      7.1081113815307617e+00      7.1081113815307617e+00  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+

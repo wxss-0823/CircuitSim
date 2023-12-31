@@ -1,0 +1,14 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+
+SP SP1[1] <MyFirstWorkspace_lib:wilkinson_comb:schematic>   freq=(1.03 GHz->1.23 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000000) < MinRecommendValue(0.000016) OR UserValue > MaxRecommendValue(0.160000) for 'W' in `R1'
+
+
+
+Resource usage:
+  Total stopwatch time     =     0.56 seconds.
+
