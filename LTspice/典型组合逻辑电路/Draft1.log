@@ -1,0 +1,19 @@
+LTspice 24.0.9 for Windows
+Circuit: * D:\Program Files\ADI\LTspice\Draft1.asc
+Start Time: Thu Apr 11 23:51:51 2024
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+ERROR: Node N002 is floating and connected to current source G:U1:M
+WARNING: Node NC_01 is floating and connected to current source G:U1:X.  It's .op solution is defined solely by a .ic statement.
+WARNING: Node NC_02 is floating and connected to current source G:U2:X.  It's .op solution is defined solely by a .ic statement.
+WARNING: Node NC_03 is floating and connected to current source G:U3:X.  It's .op solution is defined solely by a .ic statement.
+WARNING: Node NC_04 is floating and connected to current source G:U4:X.  It's .op solution is defined solely by a .ic statement.
+
+WARNING: Less than two connections to node u5:flux.  This node is used by e:u5:flux.
+WARNING: Less than two connections to node u5:charge.  This node is used by e:u5:charge.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 5.135 seconds.
+

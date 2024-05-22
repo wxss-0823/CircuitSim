@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * D:\Users\ProjectFiles\CircuitSim\LTspiceXVII\sim\DCP.asc
-Start Time: Sun Mar 10 17:33:16 2024
+Start Time: Mon May 20 22:11:58 2024
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -17,5 +17,5 @@ WARNING: Less than two connections to node u1:charge.  This node is used by e:u1
 WARNING: Less than two connections to node u2:flux.  This node is used by e:u2:flux.
 WARNING: Less than two connections to node u2:charge.  This node is used by e:u2:charge.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 1.819 seconds.
+Total elapsed time: 1.919 seconds.
 
